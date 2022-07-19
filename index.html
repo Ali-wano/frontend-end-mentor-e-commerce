@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-right">
+        <img src="./images/icon-menu.svg" alt="" class="menu">
+        <header>Sneakers</header>
+        <ul class="list">
+          <li>Collection</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="nav-left">
+        <img src="./images/icon-cart.svg" alt="" class="cart">
+        <p class="nav-cart"></p>
+        <img src="./images/image-avatar.png" alt="" class="avatar">
+      </div>
+    </div>
+  </nav>
+  <section class="product">
+    <div class="product-wrapper">
+      <div class="product-left">
+        <img src="./images/image-product-1.jpg" alt="" class="product-img">
+        <div class="product-images">
+            <img src="./images/image-product-1.jpg" alt="" class="shoe">
+            <img src="./images/image-product-2.jpg" alt="" class="shoe">
+            <img src="./images/image-product-3.jpg" alt="" class="shoe">
+            <img src="./images/image-product-4.jpg" alt="" class="shoe">
+            <div class="prev"><</div>
+            <div class="next">></div>
+        </div>
+      </div>
+      
+      <div class="product-right">
+        <span class="p-header">SNEAKER COMPANY</span>
+        <h2>Fall Limited Edition<br> Sneakers</h2>
+        <p class="desc"> These low-profile sneakers are your perfect casual wear companion. Featuring a
+          durable rubber outer sole, they’ll withstand everything the weather can offer.
+        </p>
+        <span class="discount">
+          <h3>$125.00</h3>
+          <small>50%</small>
+        </span>
+        <small class="value">$250.00</small>
+        <div class="values">
+          <span class="minus">
+            <svg width="12" height="4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <defs>
+                <path
+                  d="M11.357 3.332A.641.641 0 0 0 12 2.69V.643A.641.641 0 0 0 11.357 0H.643A.641.641 0 0 0 0 .643v2.046c0 .357.287.643.643.643h10.714Z"
+                  id="a" />
+              </defs>
+              <use fill="hsl(26, 100%, 55%)" fill-rule="nonzero" xlink:href="#a" />
+            </svg>
+          </span>
+          <p class="cart-value">0</p>
+          <span class="plus">
+            <svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <defs>
+                <path
+                  d="M12 7.023V4.977a.641.641 0 0 0-.643-.643h-3.69V.643A.641.641 0 0 0 7.022 0H4.977a.641.641 0 0 0-.643.643v3.69H.643A.641.641 0 0 0 0 4.978v2.046c0 .356.287.643.643.643h3.69v3.691c0 .356.288.643.644.643h2.046a.641.641 0 0 0 .643-.643v-3.69h3.691A.641.641 0 0 0 12 7.022Z"
+                  id="b" />
+              </defs>
+              <use fill="hsl(26, 100%, 55%)" fill-rule="nonzero" xlink:href="#b" />
+            </svg>
+          </span>
+          <button class="add-cart">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="cart-modal">
+    <p>Cart</p>
+    <hr>
+    <p class="cart-status"></p>
+    <div class="cart-info">
+
+    </div>
+  </div>
+  <div class="preview-box">
+    <div class="details">
+        <span class="icon">X</span>
+       
+    </div>
+    
+    <div class="image-box">
+      <img src="" alt="" class="m-img">
+  
+    </div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Ali-wano" target="_blank">Ali Wano</a>.
+  </div>
+</body>
+<script src="./script.js"></script>
+<script src="./carousel.js"></script>
+</html>
